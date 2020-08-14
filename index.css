@@ -1,0 +1,337 @@
+/* Top part */
+#leftPortion{
+    background-color: #0E6E84;
+    min-height: 700px;
+    
+}
+
+#rightPortion{
+    background-color: #2096A0;
+    min-height: 700px;
+}
+
+#leftCorner{
+    width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-top: 400px solid #36ADA4;
+    margin-left: -150px;
+   
+}
+
+#profileImage{
+    border: 14px solid #FFC831;
+    height:160px ;
+    width:160px ;
+    position: absolute;
+    left: 180px;
+    top: 80px;
+}
+
+#yellowDot{
+    width: 30px;
+    height: 30px;
+    background-color: #FFC831;
+    border-radius: 50%;
+    position: absolute;
+    left: 330px;
+    top: 210px;
+    
+}
+
+#profileName{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#profileDetail{
+    position: absolute;
+    left: 0px;
+    top: 270px;
+    z-index: 20;
+}
+#role{
+    font-size:20px ;
+    color: #072D45;
+    font-weight: bold;
+}
+
+#addressIcon{
+    color: #072D45;
+}
+
+#address{
+    font-size:15px ;
+    color: #072D45;
+    font-weight: bold;
+}
+
+#description{
+    margin-top: 20px;
+    line-height:1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:#CFEFF8;
+}
+
+#resumeLink{
+    color: #072D45 ;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* top-right part */
+#bs{
+    font-size: 70px;
+    padding-top: 11px;
+    padding-left: 15px;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+#html5{
+    font-size: 70px;
+    padding-top: 13px;
+    padding-left: 19px;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+#css3{
+    font-size: 70px;
+    padding-top: 13px;
+    padding-left: 19px;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+#js{
+    font-size: 70px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+#react{
+    font-size: 70px;
+    padding-top: 12px;
+    padding-left: 13px;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+#rightCorner{
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+
+    width: 100px;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 120px solid #FFC831;
+}
+
+.names{
+    color: #CFEFF8;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#html5Name{
+    margin-left: 72px;
+}
+
+#bsName{
+    margin-left: 65px;
+}
+
+#cssName{
+    margin-left: 31px;
+}
+
+#jsName{
+    margin-left: 38px;
+}
+
+#reactName{
+    margin-left: 55px;
+}
+
+/* second part */
+#secondPart{
+    min-height: 650px;
+}
+
+#trapezoid{
+    /* margin-top: 7px; */
+    position: absolute;
+    right: 250px;
+    border-bottom: 50px solid #36ADA4;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height:0;
+	width: 200px;
+}
+
+#proficiency{
+    color: #707070;
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.proTitle{
+    color: #707070;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#secontPartTriangle1{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 180px solid #2088A0;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+#secontPartTriangle2{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 180px solid #36ADA4;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+
+#thirdPart{
+    min-height: 1000px;
+}
+
+#thirdPartTriangle1{
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+    border-top: 120px solid #36ADA4;
+    position: absolute;
+    top: 0;
+    right:  100px;
+}
+
+#thirdPartTriangle2{
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+    border-top: 120px solid #2088A0;
+    position: absolute;
+    top: 0;
+    right:  150px;
+}
+
+#projects{
+    margin-top: 120px;
+}
+
+/* #cardBorder{
+    border-radius: 50px !important;
+} */
+
+
+#yellowTriangle{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 100px solid #FFC831;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+#fourthPart{
+    background-color: #0E6E84;
+    min-height: 600px;
+}
+
+#stat{
+    margin-top: 150px;
+}
+
+#half-circle1 {
+    width: 90px;
+    height: 180px;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border: 20px solid #FFC831;
+    border-right: 0;
+    display: inline-block;
+}
+#half-circle2 {
+    width: 90px;
+    height: 180px;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 20px solid #ffffff;
+    border-left: 0;
+    display: inline-block;
+}
+
+#half-circle3 {
+    width: 180px;
+    height: 90px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 20px solid #FFC831;
+    border-bottom: 0;
+}
+
+#half-circle4 {
+    width: 180px;
+    height: 90px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 20px solid #ffffff;
+    border-top: 0;
+}
+
+#half-circle6 {
+    width: 90px;
+    height: 180px;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 20px solid #FFC831;
+    border-left: 0;
+    display: inline-block;
+}
+#half-circle5 {
+    width: 90px;
+    height: 180px;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border: 20px solid #ffffff;
+    border-right: 0;
+    display: inline-block;
+}
