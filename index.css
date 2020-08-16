@@ -226,7 +226,7 @@
 }
 
 #thirdPart{
-    min-height: 1000px;
+    min-height: 1170px;
 }
 
 #thirdPartTriangle1{
@@ -334,4 +334,23 @@
     border: 20px solid #ffffff;
     border-right: 0;
     display: inline-block;
+}
+
+#thirdPart a{
+    background-color: #36ADA4 !important;
+    color: #ffffff !important;
+}
+
+#thirdPart,#secondPart p{
+    color: #707070 !important;
+}
+
+.y1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFC831;
+    position: absolute;
+    top: 130px;
+    left: -5px;
 }
