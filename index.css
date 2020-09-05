@@ -13,9 +13,9 @@
 #leftCorner{
     width: 0;
 	height: 0;
-	border-left: 250px solid transparent;
-	border-right: 250px solid transparent;
-    border-top: 400px solid #36ADA4;
+	border-left: 220px solid transparent;
+	border-right: 220px solid transparent;
+    border-top: 350px solid #36ADA4;
     margin-left: -150px;
    
 }
@@ -25,7 +25,7 @@
     height:160px ;
     width:160px ;
     position: absolute;
-    left: 180px;
+    left: 120px;
     top: 80px;
 }
 
@@ -35,7 +35,7 @@
     background-color: #FFC831;
     border-radius: 50%;
     position: absolute;
-    left: 330px;
+    left: 270px;
     top: 210px;
     
 }
@@ -76,10 +76,14 @@
     color:#CFEFF8;
 }
 
-#resumeLink{
+#profileDetail a{
     color: #072D45 ;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
+}
+#resumeLink{
+    font-size: 17px !important;
 }
 
 /* top-right part */
@@ -184,7 +188,7 @@
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	height:0;
-	width: 200px;
+    width: 200px;
 }
 
 #proficiency{
@@ -226,7 +230,7 @@
 }
 
 #thirdPart{
-    min-height: 1170px;
+    min-height: 750px;
 }
 
 #thirdPartTriangle1{
@@ -252,7 +256,7 @@
 }
 
 #projects{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 /* #cardBorder{
@@ -260,7 +264,7 @@
 } */
 
 
-#yellowTriangle{
+/* #yellowTriangle{
     width: 0;
 	height: 0;
 	border-left: 50px solid transparent;
@@ -269,7 +273,7 @@
     position: absolute;
     bottom: 0;
     left: 100px;
-}
+} */
 
 #fourthPart{
     background-color: #0E6E84;
@@ -335,6 +339,23 @@
     border-right: 0;
     display: inline-block;
 }
+#half-circle7 {
+    width: 180px;
+    height: 90px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 20px solid #ffffff;
+    border-bottom: 0;
+}
+
+#half-circle8 {
+    width: 180px;
+    height: 90px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 20px solid #FFC831;
+    border-top: 0;
+}
 
 #thirdPart a{
     background-color: #36ADA4 !important;
@@ -345,7 +366,7 @@
     color: #707070 !important;
 }
 
-.y1{
+/* .y1{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -353,4 +374,8 @@
     position: absolute;
     top: 130px;
     left: -5px;
+} */
+
+#projects img:hover{
+    transform: scale(1.1);
 }
