@@ -1,7 +1,7 @@
 /* Top part */
 #leftPortion{
     background-color: #0E6E84;
-    min-height: 700px;
+    min-height: 750px;
     
 }
 
@@ -61,6 +61,16 @@
 #addressIcon{
     color: #072D45;
 }
+#contact{
+    font-size:15px ;
+    color: #072D45;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+ #contact a{
+     font-size: 1em !important;
+     text-decoration: none !important;
+ }
 
 #address{
     font-size:15px ;
