@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masaianshubham/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masaianshubham/portfolio/issues"
+  },
+  "homepage": "https://github.com/masaianshubham/portfolio#readme",
+  "dependencies": {
+    "github-calendar": "^2.2.3"
+  }
+}

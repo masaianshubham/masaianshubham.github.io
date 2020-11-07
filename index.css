@@ -51,7 +51,18 @@
     left: 0px;
     top: 270px;
     z-index: 20;
+    font-size: 25px;
+
 }
+
+@media only screen and (max-width: 1200px) {
+    #profileDetail {
+      margin-top: -40px !important;
+    }
+    .atRate{
+        display:none !important;
+    }
+  }
 #role{
     font-size:20px ;
     color: #072D45;
@@ -127,6 +138,16 @@
     height: 90px;
 }
 
+#node{
+    font-size: 70px;
+    padding-top: 13px;
+    padding-left: 2px;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
 #js{
     font-size: 70px;
     padding-top: 10px;
@@ -176,13 +197,16 @@
 #cssName{
     margin-left: 31px;
 }
+#nodeName{
+    margin-left: 26px;
+}
 
 #jsName{
-    margin-left: 38px;
+    margin-left: 65px;
 }
 
 #reactName{
-    margin-left: 55px;
+    margin-left: 82px;
 }
 
 /* second part */
@@ -284,6 +308,15 @@
     bottom: 0;
     left: 100px;
 } */
+.cardEffect{
+    border-radius: 30px !important;
+     border-bottom-left-radius:0px !important;
+}
+.cardEffect:hover{
+    box-shadow:  9px 9px 9px #0E6E84, -9px -9px 18px #ffffff !important;
+    transform: scale(1.01);
+}
+
 
 #fourthPart{
     background-color: #0E6E84;
@@ -386,6 +419,8 @@
     left: -5px;
 } */
 
-#projects img:hover{
-    transform: scale(1.1);
+.imgStyle{
+     height: 270px !important;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
 }

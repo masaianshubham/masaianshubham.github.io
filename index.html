@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Include the library. -->
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script> 
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
     <script src="https://kit.fontawesome.com/5897268a0d.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
@@ -31,7 +41,7 @@
                                 <span>+91-8740099646</span>
                             </div>
                             <div>
-                                <i class="fas fa-at h4"></i>
+                                <i class="fas fa-at h4 atRate"></i>
                                 <a href="mailto: shubhamkumar.aceit12@gmail.com">shubhamkumar.aceit12@gmail.com</a>
                             </div>
                         </div>
@@ -66,7 +76,25 @@
                                 
                             
                         </div>
-                        <div class="col-9 offset-2 my-5">
+                        <div class="col-10 offset-1 mt-3">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <i class="fab fa-js-square text-white lead ml-5" id="js"></i>
+                                        <p class="names" id="jsName">Javascript</p>
+                                    </div>
+                                    <div>
+                                        <i class="fab fa-react text-white lead mx-5" id="react"></i>
+                                    <p class="names" id="reactName">react</p>
+                                    </div>
+                                    <div>
+                                        <i class="fab fa-node text-white lead mr-5" id="node"></i>
+                                        <p class="names" id="nodeName">node js</p>
+                                    </div>
+                                </div>
+                                
+                            
+                        </div>
+                        <!-- <div class="col-9 offset-2 my-5">
                             <div class="d-flex justify-content-around">
                                 <div>
                                     <i class="fab fa-js-square text-white lead ml-4" id="js"></i>
@@ -78,7 +106,7 @@
                                 </div>
                                 <i></i>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div id="rightCorner" class="d-none d-lg-block"></div>
@@ -120,8 +148,8 @@
                 <div class="container" id="projects">
                     <div class="row">
                         <div class="col-12 col-md-4 text-center mb-5" >
-                            <div class="card h-100 " style="border-radius: 30px; border-bottom-left-radius:0px">
-                                <img src="./resources/meditation_index.png" class="card-img-top img-fluid" style="height: 280px; border-top-left-radius: 30px;" alt="...">
+                            <div class="card h-100 cardEffect ">
+                                <img src="./resources/meditation_index.png" class="card-img-top img-fluid imgStyle"  alt="project1">
                                     <div class="card-body mt-2">
                                       <h5 class="card-title" style="color: #707070;">Meditation App</h5>
                                       <p class="card-text">This is a meditation app to destress yourself and also helpful to daily meditation session.</p>
@@ -136,8 +164,8 @@
                               </div>
                         </div>
                         <div class="col-12 col-md-4  text-center mb-5" >
-                            <div class="card h-100" style="border-radius: 30px; border-bottom-left-radius:0px">
-                                    <img src="./resources/homepage.jpg" class="card-img-top img-fluid" style="height: 280px; border-top-left-radius: 30px;" alt="...">
+                            <div class="card h-100 cardEffect" >
+                                    <img src="./resources/homepage.jpg" class="card-img-top img-fluid imgStyle"  alt="...">
                                     <div class="card-body mt-2">
                                       <h5 class="card-title" style="color: #707070;">Quiz App</h5>
                                       <p class="card-text">This is a Quiz App using Database trivia API. You can play quiz and get response.</p>
@@ -154,8 +182,8 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-4  text-center mb-5" >
-                            <div class="card h-100" style="border-radius: 30px; border-bottom-left-radius:0px">
-                                    <img src="./resources/github Jobs.png" class="card-img-top img-fluid" style="height: 280px; border-top-left-radius: 30px;" alt="...">
+                            <div class="card h-100 cardEffect" >
+                                    <img src="./resources/github Jobs.png" class="card-img-top img-fluid imgStyle"  alt="...">
                                     <div class="card-body mt-2">
                                       <h5 class="card-title" style="color: #707070;">Github Jobs</h5>
                                       <p class="card-text">This is an App for finding and applying for jobs using Github Jobs API. </p>
@@ -169,6 +197,63 @@
                                         <!-- <img src="./resources/Bootstrap_logo.svg.png" class="img-fluid mx-2" style="height: 30px;" alt=""> -->
                                         <!-- <span class="mx-4">  </span> -->
                                         <a class="btn rounded-pill align-center mx-auto my-3" href="#">View Live Project</a>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 text-center mb-5" >
+                            <div class="card h-100 cardEffect ">
+                                <img src="./resources/digi-credit-card.png" class="card-img-top img-fluid imgStyle"  alt="project1">
+                                    <div class="card-body mt-2">
+                                      <h5 class="card-title" style="color: #707070;">Digi Credit Card</h5>
+                                      <p class="card-text">This is a digital credit card layout.</p>
+                                      <div class="text-center">
+                                        <img src="./resources/html.png" class="img-fluid" style="height: 40px;" alt="html">
+                                        <img src="./resources/css.png" class="img-fluid" style="height: 40px;" alt="css">
+                                        <img src="./resources/javascript.svg" class="img-fluid" style="height: 30px;" alt="js">
+                                        <img src="./resources/react.svg" class="img-fluid mx-2" style="height: 30px;" alt="bs">
+                                        <a class="btn rounded-pill align-center mx-auto my-3" target="blank" href="https://credit-card-taupe.vercel.app/" target="blank">View Live Project</a>
+                                      </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-4  text-center mb-5" >
+                            <div class="card h-100 cardEffect" >
+                                    <img src="./resources/mod-living.png" class="card-img-top img-fluid imgStyle"  alt="...">
+                                    <div class="card-body mt-2">
+                                      <h5 class="card-title" style="color: #707070;">Mod-Living</h5>
+                                      <p class="card-text">This is an eCommerce furniture app.</p>
+                                      <br>
+                                      <div class="text-center">
+                                        <img src="./resources/html.png" class="img-fluid" style="height: 40px;" alt="">
+                                        <img src="./resources/css.png" class="img-fluid" style="height: 40px;" alt="">
+                                        <img src="./resources/javascript.svg" class="img-fluid" style="height: 30px;" alt="">
+                                        <img src="./resources/react.svg" class="img-fluid mx-2" style="height: 30px;" alt="">
+                                        <a class="btn rounded-pill align-center mx-auto my-3" target="blank" href="https://modliving.vercel.app/" target="blank">View Live Project</a>
+                                      </div>
+                                    <!-- </div> -->
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4  text-center mb-5" >
+                            <div class="card h-100 cardEffect" >
+                                    <img src="./resources/expense-manager.png" class="card-img-top img-fluid imgStyle"  alt="...">
+                                    <div class="card-body mt-2">
+                                      <h5 class="card-title" style="color: #707070;">Expense Manager</h5>
+                                      <p class="card-text">This is an expense manager app which helps you to keep track of all expenses. </p>
+                                      <br>
+                                      <div>
+                                        <div>
+                                            <img src="./resources/html.png" class="img-fluid" style="height: 40px;" alt="">
+                                            <img src="./resources/css.png" class="img-fluid" style="height: 40px;" alt="">
+                                            <img src="./resources/javascript.svg" class="img-fluid" style="height: 30px;" alt="">
+                                            <img src="./resources/react.svg" class="img-fluid mx-2" style="height: 30px;" alt="">
+                                        </div>
+                                        <!-- <img src="./resources/Bootstrap_logo.svg.png" class="img-fluid mx-2" style="height: 30px;" alt=""> -->
+                                        <!-- <span class="mx-4">  </span> -->
+                                        <a class="btn rounded-pill align-center mx-auto my-3" target="blank" href="https://expensify-gold.vercel.app/">View Live Project</a>
                                       </div>
                                     </div>
                             </div>
@@ -217,11 +302,28 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-8 offset-md-2 my-5 text-center">
-                <h3 style="color: #707070">Git Commits</h3>
-                <img src="./resources/git_commit.png" class="img-fluid" alt="">
+            <div class="col-12 col-md-8 offset-md-2 my-4 text-center">
+                 <h3 style="color: #707070">Git Commits</h3>
+               <!-- <img src="./resources/git_commit.png" class="img-fluid" alt=""> -->
+                <div class="calendar">
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script>
+    GitHubCalendar(".calendar", "masaianshubham");
+ 
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "masaianshubham", { responsive: true });
+ 
+    // Use a proxy
+    GitHubCalendar(".calendar", "masaianshubham", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${username}`)
+       }
+    }).then(r => r.text())
+</script> 
 </html>
